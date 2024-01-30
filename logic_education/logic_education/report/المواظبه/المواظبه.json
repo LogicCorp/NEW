@@ -1,0 +1,26 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-01-13 20:26:56.583865",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2024-01-30 18:03:24.932985",
+ "modified_by": "Administrator",
+ "module": "Logic Education",
+ "name": "\u0627\u0644\u0645\u0648\u0627\u0638\u0628\u0647",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Student Attendance",
+ "report_name": "\u0627\u0644\u0645\u0648\u0627\u0638\u0628\u0647",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Academics User"
+  }
+ ]
+}

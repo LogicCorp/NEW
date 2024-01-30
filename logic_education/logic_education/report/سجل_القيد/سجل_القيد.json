@@ -1,0 +1,32 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2024-01-10 19:52:41.651169",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "modified": "2024-01-30 18:03:31.826924",
+ "modified_by": "Administrator",
+ "module": "Logic Education",
+ "name": "\u0633\u062c\u0644 \u0627\u0644\u0642\u064a\u062f",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Student",
+ "report_name": "\u0633\u062c\u0644 \u0627\u0644\u0642\u064a\u062f",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "Instructor"
+  },
+  {
+   "role": "Student"
+  },
+  {
+   "role": "Academics User"
+  }
+ ]
+}

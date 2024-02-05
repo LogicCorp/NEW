@@ -155,7 +155,8 @@ def get_data(filters):
                 student_data["joining_date"]=student["joining_date"]
                 student_data["type"]=student["entry_type"]
                 student_data["birth_date"]=student["date_of_birth"]
-                student_data["oct_date"]=age_in_detail_on_last_october_date(student["date_of_birth"])
+                if student["date_of_birth"]:
+                    student_data["oct_date"]=age_in_detail_on_last_october_date(student["date_of_birth"])
                 student_data["nationality"]=student["nationality"]
                 student_data["relign"]=student["religion"]
                 student_data["city"]=student["city"]

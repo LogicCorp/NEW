@@ -1,5 +1,17 @@
 frappe.ui.form.on('Student', {
-
+	date_of_birth:function(frm){
+		if (frm.doc.date_of_birth){
+		frappe.call({
+			method:"logic_education.controller.student.age_in_detail_on_last_october_date",
+			
+			args:{"birthday_date":frm.doc.date_of_birth},
+			callback:function(r){
+				
+				if (r.message){
+				frm.set_value("number_of_years_october",r.message)}
+			}
+		})}
+	}
 })
 frappe.ui.form.on('Student Guardian', {
 	guardians_add: function(frm){
